@@ -1,0 +1,55 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Book body (rounded rectangle) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,28 L78,28 Q82,28 82,32 L82,80 Q82,84 78,84 L30,84 Q26,84 26,80 L26,32 Q26,28 30,28 Z" />
+
+    <!-- Book spine (left edge) -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M26,30 L32,30 L32,82 L26,82 Z" />
+
+    <!-- Spine decorative lines -->
+    <path
+        android:fillColor="#BDBDBD"
+        android:pathData="M28,34 L30,34 L30,78 L28,78 Z" />
+
+    <!-- Page lines -->
+    <path
+        android:strokeColor="#E0E0E0"
+        android:strokeWidth="1.5"
+        android:pathData="M40,42 L72,42" />
+    <path
+        android:strokeColor="#E0E0E0"
+        android:strokeWidth="1.5"
+        android:pathData="M40,50 L72,50" />
+    <path
+        android:strokeColor="#E0E0E0"
+        android:strokeWidth="1.5"
+        android:pathData="M40,58 L72,58" />
+    <path
+        android:strokeColor="#E0E0E0"
+        android:strokeWidth="1.5"
+        android:pathData="M40,66 L62,66" />
+
+    <!-- Yuan symbol ¥ -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M49,36 L54,44 L59,36 L62,36 L56,45.5 L62,45.5 L62,48 L56,48 L56,51 L62,51 L62,53.5 L56,53.5 L56,58 L52,58 L52,53.5 L46,53.5 L46,51 L52,51 L52,48 L46,48 L46,45.5 L52,45.5 L46,36 Z" />
+
+    <!-- Coin circle (bottom right) -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M70,68 m-8,0 a8,8 0 1,1 16,0 a8,8 0 1,1 -16,0" />
+
+    <!-- Dollar sign on coin -->
+    <path
+        android:fillColor="#F57F17"
+        android:pathData="M70,62.5 L70,64 Q67.5,64.5 67.5,66 Q67.5,67.5 70,67.5 Q72.5,67.5 72.5,70 Q72.5,71.5 70,72 L70,73.5 L69,73.5 L69,72 Q66.5,71.5 66.5,70 L68,70 Q68,71 69.5,71 Q71,71 71,70 Q71,69 69.5,68.5 Q67,68 67,66 Q67,64.5 69,64 L69,62.5 Z" />
+
+</vector>

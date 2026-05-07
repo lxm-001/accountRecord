@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Normal phones (360dp - 600dp) -->
+    <dimen name="card_horizontal_padding">16dp</dimen>
+    <dimen name="screen_horizontal_padding">16dp</dimen>
+    <dimen name="chart_height">200dp</dimen>
+    <dimen name="water_ball_size">150dp</dimen>
+    <dimen name="avatar_size">56dp</dimen>
+    <dimen name="avatar_large_size">80dp</dimen>
+</resources>

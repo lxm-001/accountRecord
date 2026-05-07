@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tablets and foldables (600dp+) -->
+    <dimen name="card_horizontal_padding">24dp</dimen>
+    <dimen name="screen_horizontal_padding">32dp</dimen>
+    <dimen name="chart_height">280dp</dimen>
+    <dimen name="water_ball_size">180dp</dimen>
+    <dimen name="avatar_size">72dp</dimen>
+    <dimen name="avatar_large_size">96dp</dimen>
+</resources>

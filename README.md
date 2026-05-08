@@ -111,7 +111,6 @@ accountRecord/
 - **Android Studio** Iguana / Koala 或更新(支持 AGP 8.10)
 - **Android SDK Platform 35** + Build-Tools 35
 - 网络可访问以下 Maven 仓库(任一即可):
-  - 小米内部 `pkgs.d.xiaomi.net`(在公司网内时优先命中)
   - 清华 / 阿里云镜像(已在 `settings.gradle.kts` 配置好)
   - Google + Maven Central
 

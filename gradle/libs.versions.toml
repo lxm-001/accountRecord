@@ -22,6 +22,8 @@ ksp = "2.1.20-1.0.32"
 mockk = "1.13.13"
 coil = "2.7.0"
 lottie = "6.6.2"
+tinker = "1.9.14.27"
+multidex = "2.0.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -70,6 +72,12 @@ mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk" }
 coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
 # Lottie
 lottie-compose = { group = "com.airbnb.android", name = "lottie-compose", version.ref = "lottie" }
+# Tinker (Tencent hotfix)
+tinker-android-lib = { group = "com.tencent.tinker", name = "tinker-android-lib", version.ref = "tinker" }
+tinker-android-anno = { group = "com.tencent.tinker", name = "tinker-android-anno", version.ref = "tinker" }
+tinker-patch-gradle-plugin = { group = "com.tencent.tinker", name = "tinker-patch-gradle-plugin", version.ref = "tinker" }
+# MultiDex (required by Tinker)
+androidx-multidex = { group = "androidx.multidex", name = "multidex", version.ref = "multidex" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

@@ -31,6 +31,13 @@
             android:launchMode="singleTask"
             android:taskAffinity="com.mian.accountrecord"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- Tinker patch result receiver. DefaultTinkerResultService restarts the process on patch
+             success, which is what we want for most cases. Subclass it if you need custom UX. -->
+        <service
+            android:name="com.tencent.tinker.lib.service.DefaultTinkerResultService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
     </application>
 
 </manifest>

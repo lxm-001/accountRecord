@@ -221,8 +221,6 @@ TinkerManager.cleanPatch(context)                       // 出问题时清除补
 | [预算页面优化方案](docs/预算页面优化方案.md) | 预算模块设计与改进 |
 | [记账App市场调研报告](docs/记账App市场调研报告.md) | 竞品分析 |
 | [lottie资源说明](docs/lottie资源说明.md) | 动画资源使用约定 |
-| [Android开发艺术探索-面试知识点梳理](docs/Android开发艺术探索-面试知识点梳理.md) | 知识点梳理 |
-
 ---
 
 ## License
